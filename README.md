@@ -17,13 +17,21 @@ mkdir -p ~/.local/share/kservices5/ServiceMenus/
  ```bash
 cp metadata-clean.desktop ~/.local/share/kservices5/ServiceMenus/
 ```
+3. Get 'ExifTool'
+```bash
+sudo dnf install perl-Image-ExifTool
+ ```
 
-3. Make sure the script is executable:
+4. Make sure the script is executable:
    ```bash
    sudo chmod +x MetaClean/remove_metadata.sh
    ```
+5. Go to directory:
+    ```bash
+   cd MetaClean/
+   ```
    
-4. To run:
+6. To run:
    ```bash
    ./remove_metadata.sh
    ```
