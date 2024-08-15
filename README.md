@@ -24,6 +24,9 @@ sudo dnf install perl-Image-ExifTool
 ```
 4. Make sure the script is executable:
 ```bash
+cd ..
+```
+```bash
 sudo chmod +x MetaClean/remove_metadata.sh
 ```
 5. Go to directory:
