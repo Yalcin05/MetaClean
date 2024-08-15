@@ -24,7 +24,7 @@ cp metadata-clean.desktop ~/.local/share/kservices5/ServiceMenus/
 
 4. Make sure the script is executable:
    ```bash
-   sudo chmod +x metadata-remover/remove_metadata.sh
+   sudo chmod +x MetaClean/remove_metadata.sh
    ```
    
 5. To run:
