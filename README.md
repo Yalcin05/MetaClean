@@ -16,7 +16,7 @@ mkdir -p ~/.local/share/kservices5/ServiceMenus/
 cd MetaClean/
 ```
 ```bash
-cp metadata-clean.desktop ~/.local/share/kservices5/ServiceMenus/
+cp MetaClean/metadata-clean.desktop ~/.local/share/kservices5/ServiceMenus/
 ```
 3. Get 'ExifTool'.
 ```bash
