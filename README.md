@@ -18,8 +18,8 @@ mkdir -p ~/.local/share/kservices5/ServiceMenus/
 cp metadata-clean.desktop ~/.local/share/kservices5/ServiceMenus/
 ```
 3. Get 'ExifTool'.
-
-On fedora: ```bash
+On Fedora:
+```bash
 sudo dnf install perl-Image-ExifTool
  ```
 
