@@ -22,6 +22,11 @@ This is a simple KDE Plasma extension that adds a "Remove Metadata" option to th
    ```bash
    chmod +x metadata-remover/remove_metadata.sh
    ```
+3. Move the metadata-clean.desktop file to the KDE service menu directory:
+   ```bash
+   mkdir -p ~/.local/share/kservices5/ServiceMenus/
+cp metadata-clean.desktop ~/.local/share/kservices5/ServiceMenus/
+   ```
 
 4. To run:
    ```bash
