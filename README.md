@@ -13,6 +13,9 @@ git clone https://github.com/Yalcin05/MetaClean.git
 mkdir -p ~/.local/share/kservices5/ServiceMenus/
 ```
 ```bash
+cd MetaClean/
+```
+```bash
 cp metadata-clean.desktop ~/.local/share/kservices5/ServiceMenus/
 ```
 3. Get 'ExifTool'.
