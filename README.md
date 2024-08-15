@@ -6,7 +6,7 @@ This is a simple KDE Plasma extension that adds a "Remove Metadata" option to th
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Yalcin05/metadata-remover.git
+   git clone https://github.com/Yalcin05/MetaClean.git
    ```
 
 2. Move the `.desktop` file to the appropriate directory:
