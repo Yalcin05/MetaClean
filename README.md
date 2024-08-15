@@ -5,36 +5,33 @@ This is a simple KDE Plasma extension that adds a "Remove Metadata" option to th
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Yalcin05/MetaClean.git
-   ```
-
+```bash
+git clone https://github.com/Yalcin05/MetaClean.git
+```
 2. Move the 'metadata-clean.desktop' file to the KDE service menu directory:
  ```bash
 mkdir -p ~/.local/share/kservices5/ServiceMenus/
 ```
-
- ```bash
+```bash
 cp metadata-clean.desktop ~/.local/share/kservices5/ServiceMenus/
 ```
 3. Get 'ExifTool'.
 ```bash
 sudo dnf install perl-Image-ExifTool
- ```
-
+```
 4. Make sure the script is executable:
-   ```bash
-   sudo chmod +x MetaClean/remove_metadata.sh
-   ```
+```bash
+sudo chmod +x MetaClean/remove_metadata.sh
+```
 5. Go to directory:
-    ```bash
-   cd MetaClean/
-   ```
+```bash
+cd MetaClean/
+```
    
 6. To run:
-   ```bash
-   ./remove_metadata.sh
-   ```
+```bash
+./remove_metadata.sh
+```
 
 ## Usage
 
