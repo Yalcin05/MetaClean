@@ -8,6 +8,10 @@ This is a simple KDE Plasma extension that adds a "Remove Metadata" option to th
    ```bash
    git clone https://github.com/Yalcin05/MetaClean.git
    ```
+1. Go into the directory:
+   ```bash
+   cd MetaClean/
+   ```
 
 2. Move the `.desktop` file to the appropriate directory:
    ```bash
