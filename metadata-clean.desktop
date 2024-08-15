@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+Actions=RemoveMetadata
+
+[Desktop Action RemoveMetadata]
+Name=Remove Metadata
+Icon=user-trash
+Exec=/path/to/remove_metadata.sh %F
